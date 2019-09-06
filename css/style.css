@@ -1,0 +1,156 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("./../images/papyrus.png");
+    font-family: 'Oswald';
+    font-size: 30px;
+    color: black;
+}
+
+#wrapper{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    margin: 0;
+}
+
+img{
+    margin-top: 2%;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.trans1-wrap{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.trans1-wrap img{
+    width: 100%;
+}
+
+.trans1-wrap:hover img{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.trans2-wrap{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.trans2-wrap img{
+    width: 100%;
+}
+
+.trans2-wrap:hover img{
+    transform: scale(1.2) rotate(5deg);
+    transition-duration: 0.3s;
+}
+
+.trans3-wrap{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.trans3-wrap img{
+    width: 100%;
+}
+
+.trans3-wrap:hover img{
+    filter: blur(2px);
+    transition-duration: 0.5s;
+}
+
+.trans4-wrap{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.trans4-wrap img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.trans4-wrap:hover img{
+    filter: grayscale(0%);
+    transition-duration: 0.5s;
+}
+
+.trans5-wrap{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.trans5-wrap img{
+    width: 100%;
+    filter: sepia(100%);
+}
+
+.trans5-wrap:hover img{
+    filter: sepia(0%);
+    transition-duration: 0.5s;
+}
+
+.trans6-wrap{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.trans6-wrap img{
+    
+}
+
+.trans6-wrap:hover img{
+    opacity: .5;
+    transition-duration: 0.5s;
+}
+
+.trans7-wrap{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.trans7-wrap img{
+    
+}
+
+.trans7-wrap:hover img{
+    opacity: 1;
+    animation: flash 1.5s;
+}
+
+@keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
